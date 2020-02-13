@@ -1,42 +1,53 @@
+
 public class Main {
 
     public static void main(String[] args) {
 
-        Car carObject1 = new Car();
-        carObject1.manufacturer = "Audi";
-        System.out.println(carObject1.manufacturer);
+        // Car carObject1 = new Car();
+        // Car carObject2 = new Car();
 
-        Car carObject2 = new Car();
-        carObject2.colour = "red";
-        System.out.println(carObject2.colour);
+        // carObject1.manufacturer = "Audi";
+        // carObject1.colour = "red";
+        // carObject1.seats = 5;
+        // carObject1.year = 2001;
 
-        Car carObject3 = new Car();
-        carObject3.seats = 5;
-        System.out.println(carObject3.seats);
+        // System.out.println(carObject1.manufacturer);
+        // System.out.println(carObject1.colour);
+        // System.out.println(carObject1.seats);
+        // System.out.println(carObject1.year);
 
-        Car carObject4 = new Car();
-        carObject4.year = 2001;
-        System.out.println(carObject4.year);
+        // carObject2.manufacturer = "mercedes";
+        // carObject2.colour = "blue";
+        // carObject2.seats = 2;
+        // carObject2.year = 2018;
 
-        Car carObject21 = new Car();
-        carObject21.manufacturer = "mercedes";
-        System.out.println(carObject21.manufacturer);
+        // System.out.println(carObject2.manufacturer);
+        // System.out.println(carObject2.colour);
+        // System.out.println(carObject2.seats);
+        // System.out.println(carObject2.year);
 
-        Car carObject22 = new Car();
-        carObject22.colour = "blue";
-        System.out.println(carObject22.colour);
-
-        Car carObject23 = new Car();
-        carObject23.seats = 2;
-        System.out.println(carObject23.seats);
-
-        Car carObject24 = new Car();
-        carObject24.year = 2018;
-        System.out.println(carObject24.year);
-
-        carObject3.reduceSeats();
-        System.out.println(carObject3.seats);
+        // carObject1.reduceSeats();
+        // System.out.println(carObject1.seats);
         
+        // System.out.println(carObject1.yearGoneBy());
+
+        // carObject1.newManufacturer();
+        // System.out.println(carObject1.newManufacturer);
+
+        
+        // Puppy
+        Puppy puppyObject1 = new Puppy();
+        Puppy puppyObject2 = new Puppy("Bingo");
+        Puppy puppyObject3 = new Puppy("Rex",10,"Pitbull");
+
+        System.out.println(puppyObject1.name);
+        System.out.println(puppyObject2.name);
+        System.out.println(puppyObject3.name);
+
+        System.out.println(puppyObject1.age);
+        System.out.println(puppyObject2.age);
+        System.out.println(puppyObject3.age);
+
     }
     
 }

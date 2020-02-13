@@ -10,9 +10,18 @@ class Car {
     int seats;
 
     int reduceSeats(){
-        
         return seats--;
 
+    }
+
+    int yearGoneBy(){
+        year++;
+        return year;
+    }
+
+    String newManufacturer(String manufacturer){
+        manufacturer = "Toyota";
+        return manufacturer;
     }
 
 }
